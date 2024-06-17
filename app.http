@@ -1,0 +1,20 @@
+#### Register User
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "Name": "Kevin Kemboi",
+  "Email": "kevinkemba3@gmail.com",
+  "Password": "Kevin@123!",
+  "isAdmin": 0
+}
+
+#### Login User
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "kevinkemba3@gmail.com",
+  "password": "Kevin123!"
+}
+
